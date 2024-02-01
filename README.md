@@ -156,17 +156,17 @@ The API documentation is as follows:
 
 2. List All Books
 
-   - Endpoint: /api/books/list/
+   - Endpoint: `/api/books/list/`
    - Method: GET
 
 3. Get Book by ID
 
-   - Endpoint: /api/books/<int:id>/
+   - Endpoint: `/api/books/<int:id>/`
    - Method: GET
 
 4. Assign/Update Book Details
 
-   - Endpoint: /api/books/details/assign/
+   - Endpoint: `/api/books/details/assign/`
    - Method: PUT
    - Request Body:
 
@@ -183,7 +183,7 @@ The API documentation is as follows:
 
 1. Borrow a Book
 
-   - Endpoint: /api/borrow/
+   - Endpoint: `/api/borrow/`
    - Method: POST
    - Request Body:
 
@@ -197,7 +197,7 @@ The API documentation is as follows:
 
 2. Return a Book
 
-   - Endpoint: /api/return/<int:id>/
+   - Endpoint: `/api/return/<int:id>/`
    - Method: PUT
    - Request Body:
 
@@ -209,7 +209,7 @@ The API documentation is as follows:
 
 3. List All Borrowed Books
 
-   - Endpoint: /api/list/borrowed/
+   - Endpoint: `/api/list/borrowed/`
    - Method: GET
 
 ## Additional Notes
